@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S3 Speed Test</title>
+</head>
+
+<body>
+    <h1>S3 Speed Test</h1>
+    <form id="s3Form">
+        <label>Endpoint: <input type="text" id="endpoint" required></label><br>
+        <label>Access Key: <input type="text" id="accessKey" required></label><br>
+        <label>Secret Key: <input type="password" id="secretKey" required></label><br>
+        <label>Region: <input type="text" id="region" required></label><br>
+        <label>Bucket Name: <input type="text" id="bucket" required></label><br>
+        <label>Chọn file: <input type="file" id="fileUpload" required></label><br>
+        <button type="submit">Test Tốc Độ</button>
+    </form>
+    <div id="results"></div>
+    <script src="app.js"></script>
+</body>
+
+</html>
